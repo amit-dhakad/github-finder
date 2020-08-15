@@ -9,6 +9,10 @@ import GithubState from './context/github/GithubState'
 import AlertState from './context/alert/AlertState'
 import Home from './components/pages/Home'
 import NotFound from './components/pages/NotFound'
+
+// set public url in .env.local file to run on localhost:3000 REACT_APP_GITHUB_CLIENT_ID REACT_APP_GITHUB_CLIENT_SECRET set both property
+// PUBLIC_URL='/'
+
 const App = () => {
 
     return (
